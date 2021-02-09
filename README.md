@@ -2,27 +2,16 @@
 
 A JavaScript Tetris clone in 506b.
 
-[Play the game](https://veu.github.io/mini-tetris/dist/tetris.html).
-
 ## Features
 
 * 10x18 playing field (Game Boy version dimensions)
 * Move, turn, and speed up pieces with arrow keys
 * Score with bonus for multiple lines
-* Beautiful UI ;)
+* Beautiful UI :D
 
 ## Caveats
 
 * Pieces turn differently than in original version.
-
-## Contributors
-
-* [@aemkei](https://twitter.com/aemkei)
-* [@benjamin_js](https://twitter.com/benjamin_js)
-* [@fusselwurm](https://twitter.com/fusselwurm)
-* [@MaximeEuziere](https://twitter.com/MaximeEuziere)
-* [@parrotgeek1](https://twitter.com/parrotgeek1)
-* [@subzey](https://twitter.com/subzey)
 
 ## Some tricks used
 
@@ -48,8 +37,4 @@ Note that some tricks may have been replaced in the most recent version.
 * `setTimeout()` returns a random identifier which can be used for `clearTimeout()` or as random value to select tetrominos.
 * The `<body>` tag doubles as cheap way to execute the code (via `onload`) and element to insert the UI.
 * With `Node.innerText` line breaks can be done with `\n` instead of `<br>` when using `Element.innerHTML`.
-* `A&&B` is used in favor of `if(A)B` but `A?B:0` is used when B is an assignment to avoid wrapping it in parentheses.
-
-## Other projects
-
-If you want to join us or see other golfing projects we’ve made, see [this list](https://gist.github.com/xem/206db44adbdd09bac424).
+* `A&&B` is used in favor of `if(A)B` but `A?B:0` is used when B is an assignment to avoid wrapping it in parenthes
